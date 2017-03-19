@@ -3,7 +3,7 @@ import { IProduct } from './product';
 
 @Injectable()
 export class ProductService {
-    getProduct(): IProduct[] {
+    getProducts(): IProduct[] {
         return [
             {
                 "productId": 1,
